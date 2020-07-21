@@ -4,31 +4,36 @@
 <head>
     <meta charset="utf-8">
     <title>SIOPAK - KEMENDAGRI </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+ <link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/kemendagri_new.jpeg"> <meta name="viewport" 
+content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="SIOPAK: Sistem basis data yang membantu Pejabat Fungsional memproses pengelolaan 
+administrasi dan penilaian angka kredit media elektronik."> <meta name="description" content="">
+     <meta name="author" content=""> <!-- Google / Search Engine Tags --> <meta itemprop="name" content="SIOPAK | BPSDM 
+KEMENDAGRI R.I"> <!-- Le styles --> <meta itemprop="description" content="SIOPAK: Sistem basis data yang membantu Pejabat 
+Fungsional memproses pengelolaan administrasi dan penilaian angka kredit media elektronik."> <meta itemprop="image" 
+content="<?php echo base_url(); ?>assets/images/kemendagri_new.jpeg"> <!-- <link rel="stylesheet" 
+href="assets/css/style.css"> -->
+     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/loader-style.css"> <!-- Facebook Meta Tags --> <link 
+rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap.css"> <meta property="og:url" content="<?php echo 
+base_url() ?>assets/images/kemendagri_new.jpeg"> <link rel="stylesheet" href="<?php echo base_url() 
+?>assets/css/signin.css"> <meta property="og:type" content="SIOPAK | BPSDM KEMENDAGRI R.I"> <script type="text/javascript" 
+src="<?php echo base_url() ?>assets/js/jquery.min.js"></script> <meta property="og:title" content="SIOPAK | BPSDM 
+KEMENDAGRI R.I"> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script> 
+<meta property="og:description" content="SIOPAK: Sistem basis data yang membantu Pejabat Fungsional memproses pengelolaan 
+administrasi dan penilaian angka kredit media elektronik."> <meta property="og:image" content="<?php echo base_url(); 
+?>assets/images/kemendagri_new.jpeg"> <script 
+src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
+   
 
-    <!-- Le styles -->
-
-   <!--  <link rel="stylesheet" href="assets/css/style.css"> -->
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/loader-style.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/signin.css">
-    <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>  
-
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
-  
 
 
 
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-    <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/ico/minus.png">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements --> <!-- Twitter Meta Tags --> <!--[if lt IE 9]> <meta 
+name="twitter:card" content="SIOPAK | BPSDM KEMENDAGRI R.I"> <script 
+src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <meta name="twitter:title" content="PT.SIOPAK | BPSDM 
+KEMENDAGRI R.I"> <![endif]--> <meta name="twitter:description" content="SIOPAK | BPSDM KEMENDAGRI R.I"> <!-- Fav and touch 
+icons -->
+<meta name="twitter:image" content="<?php echo base_url() ?>assets/images/kemendagri_new.jpeg">   
     <style>
         body {
             background: url('<?php echo base_url() ?>assets/img/mp3.jpg') no-repeat;
@@ -205,9 +210,8 @@
 
 
         <div style="text-align:center;margin:0 auto;">
-            <h6 style="color:#fff;">Copyright &copy 2020 BPSDM Kemendagri</h6>
-        </div>
-
+            
+        <h6 style="color:#fff;">&copy SIOPAK 2020 <br> Copyright By BPSDM Kementerian Dalam Negeri Republik Indonesia</h6></div>
     </div>
 
 

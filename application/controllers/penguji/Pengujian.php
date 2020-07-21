@@ -36,7 +36,7 @@
 
         function cetak($id = 0){
 
-            ini_set('memory_limit', '-1');
+           //ini_set('memory_limit', '-1');
             $this->load->library('pdf');
             $data = [];
             
@@ -64,7 +64,7 @@
             $update_status_pak= $this->db->query("update status_layak set layak=$layak where nip=$nip"); 
              }
             }
-            $data['status_layak'] = $this->db->query("select * from status_layak where nip=$nip and tahun=$tahun")->result_array();
+            $data['status_layak'] = $this->db->query("select * from status_layak where nip=$nip")->result_array();
             $this->pdf->setPaper('Legal', 'potrait');
             $this->pdf->filename = "PAK_DUPAK_".$id.".pdf";
             $this->pdf->load_view('cetakpak', $data);

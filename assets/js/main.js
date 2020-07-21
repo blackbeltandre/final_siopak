@@ -1,6 +1,6 @@
 //Sliding Effect Control
-// var base_url = 'http://localhost:999/dupak/';
-var base_url = 'http://localhost/siopak/';
+// var base_url = 'https://localhost:999/dupak/';
+var base_url = 'https://si-opak.bpsdm.kemendagri.go.id/';
 
 head.js(base_url+"assets/js/skin-select/jquery.cookie.js");
 head.js(base_url+"assets/js/skin-select/skin-select.js");
